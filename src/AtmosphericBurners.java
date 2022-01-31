@@ -11,7 +11,7 @@ public class AtmosphericBurners extends Burners{
 
     public void work() {
         if (thrust < 0) {
-            System.out.println("Failure");
+            System.out.println("Failure");//при запуске срабатывает датчик тяги, разрывая цепь безопасности
         } else {
             burn();
         }
